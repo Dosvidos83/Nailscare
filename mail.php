@@ -33,15 +33,15 @@ try {
 
   // Настройки вашей почты
   $mail->Host       = 'smtp.mail.ru'; // SMTP сервера вашей почты
-  $mail->Username   = 'mailnail81@mail.ru'; // Логин на почте
-  $mail->Password   = '9d1bjAY5aHTm0uBFGWuw'; // Пароль на почте
+  $mail->Username   = '0123456789@mail.ru'; // Логин на почте
+  $mail->Password   = '0123456789'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('mailnail81@mail.ru', 'Запись на маникюр'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('0123456789@mail.ru', 'Запись на маникюр'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('mumik81@mail.ru');
+  $mail->addAddress('9876543210@mail.ru');
 
   // Прикрипление файлов к письму
   if (!empty($file['name'][0])) {
